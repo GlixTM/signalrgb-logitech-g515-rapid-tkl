@@ -4,7 +4,7 @@ Unofficial SignalRGB plugin for per-key RGB lighting on the wired Logitech G515 
 
 ## Compatibility
 
-Tested on one G515 RAPID TKL with USB VID/PID **046D:C363**, using HID interface 2 and an 87-key layout with a tall Enter, long left Shift, and a backslash key beside Enter. Other layouts, firmware revisions, and G515 models have not been tested. HID++ feature indexes are currently fixed for the tested device.
+Tested on one G515 RAPID TKL with USB VID/PID **046D:C363**, using HID interface 2 and an 88-key layout with a tall Enter, short left Shift and the "ISO_<" key. Other layouts, firmware revisions, and G515 models have not been tested. HID++ feature indexes are currently fixed for the tested device.
 
 ## Features
 
@@ -74,13 +74,14 @@ The plugin periodically refreshes absolute colors to limit state drift. It does 
 
 `RGB HID++ replies confirmed` is logged once when a frame has been acknowledged. Repeated `Busy`, reply timeout, or write-error messages indicate a problem requiring investigation.
 
-When opening an [issue](https://github.com/wentyss/signalrgb-logitech-g515-rapid-tkl/issues), include your SignalRGB version, firmware version if available, USB VID/PID, keyboard layout, reproduction steps, and relevant Device Console messages. Review screenshots and captures for personal information before sharing them.
+When opening an [issue](https://github.com/glixtm/signalrgb-logitech-g515-rapid-tkl/issues), include your SignalRGB version, firmware version if available, USB VID/PID, keyboard layout, reproduction steps, and relevant Device Console messages. Review screenshots and captures for personal information before sharing them.
 
 ## References
 
 - [SignalRGB plugin documentation](https://docs.signalrgb.com/developer/plugins/)
 - [OpenLogi PerKeyLighting implementation](https://github.com/AprilNEA/OpenLogi/blob/master/crates/openlogi-hidpp/src/feature/per_key_lighting.rs)
 - [Delido Logitech plugin reference](https://github.com/Delido/signalrgb-plugins/blob/main/Logitech_Modern_Device.js)
+- [USB HID documentation (section 0x07)](https://usb.org/sites/default/files/hut1_5.pdf)
 
 The protocol was investigated using G HUB USB captures and device tests. The device thumbnail references Logitech's externally hosted product image and may show a different key layout. It is not included as a separately licensed repository asset.
 
