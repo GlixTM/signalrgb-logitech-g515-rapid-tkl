@@ -8,7 +8,7 @@ Tested on one G515 RAPID TKL with USB VID/PID **046D:C363**, using HID interface
 
 ## Features
 
-- Individual Canvas lighting for all 87 keys.
+- Individual Canvas lighting for all 88 keys.
 - Forced Color mode for a single color across the keyboard.
 - SignalRGB's built-in Device Brightness works in both modes.
 - Configurable Shutdown Color; use `#000000` to turn lighting off on normal exit.
