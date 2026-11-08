@@ -52,7 +52,7 @@ var vLedNames = [
   "Left Bracket", "Right Bracket", "Delete", "End", "Page Down",
   "Caps Lock", "A", "S", "D", "F", "G", "H", "J", "K", "L",
   "Semicolon", "Quote", "Backslash", "Enter",
-  "Left Shift", "Z", "X", "C", "V", "B", "N", "M",
+  "Left Shift","ISO_<", "Z", "X", "C", "V", "B", "N", "M",
   "Comma", "Period", "Slash", "Right Shift", "Up",
   "Left Ctrl", "Win", "Left Alt", "Space", "Right Alt", "Fn",
   "Menu", "Right Ctrl", "Left", "Down", "Right"
@@ -87,8 +87,8 @@ var vLedPositions = [
   [23, 14], [27, 14], [31, 14], [35, 14], [39, 14],
   [43, 14], [47, 14], [51, 14], [57, 12],
 
-  // Left Shift, Z–M, Comma, Period, Slash, Right Shift, Up
-  [3, 18], [9, 18], [13, 18], [17, 18], [21, 18],
+  // Left Shift, ISO_<, Z–M, Comma, Period, Slash, Right Shift, Up
+  [0, 18], [4, 18], [9, 18], [13, 18], [17, 18], [21, 18],
   [25, 18], [29, 18], [33, 18], [37, 18], [41, 18],
   [45, 18], [53, 18], [66, 18],
 
@@ -112,7 +112,7 @@ const keyIds = [
   0x09, 0x0F, 0x10, 0x2C, 0x2D, 0x49, 0x4A, 0x4B,
   0x36, 0x01, 0x13, 0x04, 0x06, 0x07, 0x08,
   0x0A, 0x0B, 0x0C, 0x30, 0x31, 0x2F, 0x25,
-  0x69, 0x1A, 0x18, 0x03, 0x16, 0x02, 0x0E,
+  0x69, 0x61, 0x1A, 0x18, 0x03, 0x16, 0x02, 0x0E,
   0x0D, 0x33, 0x34, 0x35, 0x6D, 0x4F,
   0x68, 0x6B, 0x6A, 0x29, 0x6E, 0x6F,
   0x62, 0x6C, 0x4D, 0x4E, 0x4C
