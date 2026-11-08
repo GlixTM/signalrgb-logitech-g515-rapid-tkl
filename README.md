@@ -23,7 +23,7 @@ Tested on one G515 RAPID TKL with USB VID/PID **046D:C363**, using HID interface
 1. Open **SignalRGB → Settings → Plugins** and choose **Add Plugin Repository** (section wording may vary by version).
 2. Add the repository URL:
 
-   https://github.com/wentyss/signalrgb-logitech-g515-rapid-tkl
+   https://github.com/glixtm/signalrgb-logitech-g515-rapid-tkl
 
 3. Enable the repository if prompted, let its plugins load, then reload plugins or restart SignalRGB.
 4. Select the keyboard and choose **Lighting Mode → Canvas** or **Forced**.
